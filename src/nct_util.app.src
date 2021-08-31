@@ -1,0 +1,12 @@
+{application, nct_util, [
+    {description, "Nomasystems Common Test util library"},
+    {vsn, "0.1.0"},
+    {registered, []},
+    {applications, [
+        kernel,
+        stdlib,
+        ct
+    ]},
+    {env, []},
+    {modules, []}
+]}.
