@@ -1,7 +1,7 @@
 nct_util
 =====
 
-An OTP library
+An OTP library for defining common ct code patterns.
 
 Build
 -----
