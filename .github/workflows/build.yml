@@ -1,8 +1,9 @@
-name: nct_util
+name: nct_util ci
+
 on:
   push:
     branches:
-      - '*'
+      - main
   pull_request:
     branches:
       - main
@@ -15,7 +16,7 @@ jobs:
           - image: erlang:22
           - image: erlang:23
           - image: erlang:24
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     container:
       image: ${{ matrix.image }}
       options: "--entrypoint /bin/bash"

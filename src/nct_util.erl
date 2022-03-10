@@ -19,6 +19,7 @@
     teardown_suite/1
 ]).
 
+%%% TRACING UTIL EXPORTS
 -export([
     end_traces/1,
     init_traces/1
