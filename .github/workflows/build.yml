@@ -1,8 +1,9 @@
-name: nct_util
+name: nct_util ci
+
 on:
   push:
     branches:
-      - '*'
+      - main
   pull_request:
     branches:
       - main
