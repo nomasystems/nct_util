@@ -36,8 +36,7 @@ setup_suite(Conf) ->
     dbg:p(all, [c, sos, sol]),
     Apps = ct:get_config(apps, []),
     Env = ct:get_config(env, []),
-    lists:foreach(fun(App) -> ok = application:load(App) end, Apps),
-    ok = application:set_env(Env),
+    ok = application:set_env(Env, [{persistent, true}]),
     Started =
         lists:foldl(
             fun(App, Acc) ->
