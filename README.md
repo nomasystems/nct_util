@@ -1,5 +1,5 @@
 # nct_util
-![nct_util](https://github.com/nomasystems/nct_util/actions/workflows/build.yml/badge.svg)
+![nct_util](https://github.com/nomasystems/nct_util/actions/workflows/ci.yml/badge.svg)
 
 `nct_util` is an OTP library that provides utilities to orchestrate a Common Test SUITE. It automates several tasks like starting/stopping applications, loading env vars, and setting `dbg` traces via a Common Test config file.
 
